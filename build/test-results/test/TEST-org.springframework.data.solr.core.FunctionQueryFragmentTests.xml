@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.FunctionQueryFragmentTests" tests="73" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:05" hostname="192.168.1.7" time="0.011">
+  <properties/>
+  <testcase name="queryParserConstructsExpectedFragment[0: CurrencyFunction [arguments=[field_1]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.001"/>
+  <testcase name="queryParserConstructsExpectedFragment[1: CurrencyFunction [arguments=[field_1, EUR]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[2: CurrencyFunction [arguments=[field_1]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[3: CurrencyFunction [arguments=[field_1, EUR]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[4: DefaultValueFunction [arguments=[field_1, value]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[5: DefaultValueFunction [arguments=[field_1, 1]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.001"/>
+  <testcase name="queryParserConstructsExpectedFragment[6: DefaultValueFunction [arguments=[field_1, Foo]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[7: DefaultValueFunction [arguments=[field_1, value]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[8: DefaultValueFunction [arguments=[field_1, 1]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[9: DefaultValueFunction [arguments=[field_1, Foo]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[10: DefaultValueFunction [arguments=[Foo, value]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[11: DefaultValueFunction [arguments=[Foo, 1]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[12: DefaultValueFunction [arguments=[Foo, Bar]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[13: DistanceFunction [arguments=[2, Point [x=1.000000, y=2.000000], Point [x=3.000000, y=4.000000]]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.001"/>
+  <testcase name="queryParserConstructsExpectedFragment[14: DistanceFunction [arguments=[2, Point [x=1.000000, y=2.000000], Point [x=4.000000, y=5.000000]]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[15: DistanceFunction [arguments=[Infinite, Point [x=1.000000, y=2.000000], Point [x=3.000000, y=4.000000]]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.001"/>
+  <testcase name="queryParserConstructsExpectedFragment[16: DistanceFunction [arguments=[Infinite, Point [x=1.000000, y=2.000000], Point [x=4.000000, y=5.000000]]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[17: DistanceFunction [arguments=[1, Point [x=1.000000, y=2.000000], Point [x=3.000000, y=4.000000]]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[18: DistanceFunction [arguments=[1, Point [x=1.000000, y=2.000000], Point [x=4.000000, y=5.000000]]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.001"/>
+  <testcase name="queryParserConstructsExpectedFragment[19: DistanceFunction [arguments=[0, Point [x=1.000000, y=2.000000], Point [x=3.000000, y=4.000000]]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[20: DistanceFunction [arguments=[0, Point [x=1.000000, y=2.000000], Point [x=4.000000, y=5.000000]]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[21: DivideFunction [arguments=[Foo, Bar]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[22: DivideFunction [arguments=[Foo, 3]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[23: DivideFunction [arguments=[Foo, field_1]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[24: DivideFunction [arguments=[Foo, field_1]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.001"/>
+  <testcase name="queryParserConstructsExpectedFragment[25: DivideFunction [arguments=[3, Bar]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[26: DivideFunction [arguments=[3, 3]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[27: DivideFunction [arguments=[3, field_1]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[28: DivideFunction [arguments=[3, field_1]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[29: DivideFunction [arguments=[field_1, Bar]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[30: DivideFunction [arguments=[field_1, 3]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[31: DivideFunction [arguments=[field_1, field_2]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[32: DivideFunction [arguments=[field_1, field_2]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[33: DivideFunction [arguments=[field_1, Bar]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[34: DivideFunction [arguments=[field_1, 3]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[35: DivideFunction [arguments=[field_1, field_2]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[36: DivideFunction [arguments=[field_1, field_2]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[37: ExistsFunction [arguments=[field_3]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[38: ExistsFunction [arguments=[Foo]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[39: ExistsFunction [arguments=[field_1]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[40: GeoDistanceFunction [arguments=[field_1, Point [x=12.000000, y=13.000000]]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[41: GeoDistanceFunction [arguments=[field_1, Point [x=12.000000, y=13.000000]]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.001"/>
+  <testcase name="queryParserConstructsExpectedFragment[42: GeoDistanceFunction [arguments=[field_1, Point [x=12.000000, y=13.000000]]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[43: GeoHashFunction [arguments=[Point [x=1.000000, y=2.000000]]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[44: GeoHashFunction [arguments=[Point [x=1.000000, y=2.000000]]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[45: IfFunction [arguments=[Foo, field_1, 3]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[46: IfFunction [arguments=[Foo, field_1, 3]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[47: IfFunction [arguments=[field_1, Foo, Bar]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[48: IfFunction [arguments=[field_1, Foo, Bar]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[49: MaxFunction [arguments=[Foo, Bar]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.001"/>
+  <testcase name="queryParserConstructsExpectedFragment[50: MaxFunction [arguments=[Foo, 3]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[51: MaxFunction [arguments=[Foo, field_1]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[52: MaxFunction [arguments=[3, Bar]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[53: MaxFunction [arguments=[3, 4]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[54: MaxFunction [arguments=[3, field_1]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[55: MaxFunction [arguments=[field_1, Bar]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[56: MaxFunction [arguments=[field_1, 3]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[57: MaxFunction [arguments=[field_1, field_2]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[58: NotFunction [arguments=[field_1]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[59: NotFunction [arguments=[Foo]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.001"/>
+  <testcase name="queryParserConstructsExpectedFragment[60: NotFunction [arguments=[field_1]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[61: ProductFunction [arguments=[field_1, field_2]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[62: ProductFunction [arguments=[field_1, field_2]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[63: ProductFunction [arguments=[3, field_2]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[64: ProductFunction [arguments=[field_1, field_2]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[65: ProductFunction [arguments=[Foo, field_1]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[66: ProductFunction [arguments=[Foo, field_1, Bar]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[67: ProductFunction [arguments=[Foo, field_1, Bar, 3]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[68: ProductFunction [arguments=[Foo, field_1, Bar, 3, field_2]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[69: QueryFunction [arguments=[org.springframework.data.solr.core.query.SimpleQuery@648ee871]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.001"/>
+  <testcase name="queryParserConstructsExpectedFragment[70: QueryFunction [arguments=[org.springframework.data.solr.core.query.SimpleQuery@375b5b7f]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[71: TermFrequencyFunction [arguments=[field_1, term]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <testcase name="queryParserConstructsExpectedFragment[72: TermFrequencyFunction [arguments=[field_1, term]]]" classname="org.springframework.data.solr.core.FunctionQueryFragmentTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

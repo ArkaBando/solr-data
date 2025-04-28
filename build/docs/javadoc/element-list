@@ -1,0 +1,16 @@
+org.springframework.data.solr
+org.springframework.data.solr.core
+org.springframework.data.solr.core.convert
+org.springframework.data.solr.core.geo
+org.springframework.data.solr.core.mapping
+org.springframework.data.solr.core.query
+org.springframework.data.solr.core.query.result
+org.springframework.data.solr.core.schema
+org.springframework.data.solr.repository
+org.springframework.data.solr.repository.cdi
+org.springframework.data.solr.repository.config
+org.springframework.data.solr.repository.query
+org.springframework.data.solr.repository.support
+org.springframework.data.solr.server
+org.springframework.data.solr.server.config
+org.springframework.data.solr.server.support

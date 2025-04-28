@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.TermsQueryParserTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:14" hostname="192.168.1.7" time="0.005">
+  <properties/>
+  <testcase name="testConstructSolrQueryProcessesTermsPrefixCorrectly" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.0"/>
+  <testcase name="testConstructSolrQueryProcessesRequestHandlerCorrectly" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.0"/>
+  <testcase name="testConstructSolrQueryProcessesSingleFieldCorrectly" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.0"/>
+  <testcase name="testConstructSolrQuerySetRequestHandlerToDefaultWhenNull" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.0"/>
+  <testcase name="testConstructSolrQueryIgnoresTermsMinCountLessThanZero" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.0"/>
+  <testcase name="testConstructSolrQueryIgnoresTermsMaxCountLessThanMinusOne" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.0"/>
+  <testcase name="testConstructSolrQueryProcessesMultipleFieldsCorrectly" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.001"/>
+  <testcase name="testConstructSolrQueryProcessesTermsMaxCountCorrectly" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.0"/>
+  <testcase name="testConstructSolrQueryIgnoresTermsRegexFlagWhenNull" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.0"/>
+  <testcase name="testConstructSolrQueryProcessesTermsRegexFlagCorrectly" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.001"/>
+  <testcase name="testConstructSolrQueryIgnoresTermsRegexWhenBlank" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.0"/>
+  <testcase name="testConstructSolrQuerySetRequestHandlerToDefaultWhenBlank" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.0"/>
+  <testcase name="testConstructSolrQueryProcessesTermsRegexCorrectly" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.0"/>
+  <testcase name="testConstructSolrQueryProcessesTermsMinCountCorrectly" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.0"/>
+  <testcase name="testConstructSolrQueryIgnoresTermsPrefixWhenBlank" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.0"/>
+  <testcase name="testConstructSolrQueryIgnoresTermsLimitLessThanZero" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.001"/>
+  <testcase name="testConstructSolrQueryProcessesTermsLimitCorrectly" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.0"/>
+  <testcase name="testConstructSolrQueryIgnoresTermsPrefixWhenNull" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.0"/>
+  <testcase name="testConstructSolrQueryProcessesTermsSortCorrectly" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.0"/>
+  <testcase name="testConstructSolrQueryIgnoresTermsRegexWhenNull" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.001"/>
+  <testcase name="testConstructSolrQueryIgnoresTermsSortWhenNull" classname="org.springframework.data.solr.core.TermsQueryParserTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

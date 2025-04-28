@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.repository.query.SolrQueryTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:32" hostname="192.168.1.7" time="0.093">
+  <properties/>
+  <testcase name="testQueryWithHighlightParameters" classname="org.springframework.data.solr.repository.query.SolrQueryTests" time="0.083"/>
+  <testcase name="singleEntityExecutionShouldUseCollectionNameWhenReturningOptional" classname="org.springframework.data.solr.repository.query.SolrQueryTests" time="0.0"/>
+  <testcase name="sliceShouldTriggerPagedExecution" classname="org.springframework.data.solr.repository.query.SolrQueryTests" time="0.001"/>
+  <testcase name="shouldNotCallServerIfPageOutsideLimit" classname="org.springframework.data.solr.repository.query.SolrQueryTests" time="0.002"/>
+  <testcase name="testQueryWithNonDefaultHighlightFormatter" classname="org.springframework.data.solr.repository.query.SolrQueryTests" time="0.0"/>
+  <testcase name="shouldApplyLimitCorrectlyWhenPageSizeToBig" classname="org.springframework.data.solr.repository.query.SolrQueryTests" time="0.002"/>
+  <testcase name="shouldApplyLimitCorrectlyToPageWhenPageInsideLimit" classname="org.springframework.data.solr.repository.query.SolrQueryTests" time="0.001"/>
+  <testcase name="testQueryWithStats" classname="org.springframework.data.solr.repository.query.SolrQueryTests" time="0.001"/>
+  <testcase name="testQueryWithStatsNonSelective" classname="org.springframework.data.solr.repository.query.SolrQueryTests" time="0.001"/>
+  <testcase name="testQueryWithStatsNoFacets" classname="org.springframework.data.solr.repository.query.SolrQueryTests" time="0.0"/>
+  <testcase name="testQueryWithParametrizedHighlightQuery" classname="org.springframework.data.solr.repository.query.SolrQueryTests" time="0.001"/>
+  <testcase name="testQueryWithHighlightAndFaceting" classname="org.springframework.data.solr.repository.query.SolrQueryTests" time="0.001"/>
+  <testcase name="testQueryWithHighlight" classname="org.springframework.data.solr.repository.query.SolrQueryTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

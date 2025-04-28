@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.query.result.DelegatingCursorUnitTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:18" hostname="192.168.1.7" time="0.001">
+  <properties/>
+  <testcase name="shouldThrowExceptionWhenOpeningMultipleTimes" classname="org.springframework.data.solr.core.query.result.DelegatingCursorUnitTests" time="0.001"/>
+  <testcase name="shouldReturnElementsInValidOrder" classname="org.springframework.data.solr.core.query.result.DelegatingCursorUnitTests" time="0.0"/>
+  <testcase name="shouldStopWhenNoMoreElementsAvailableAndAlreadyFinished" classname="org.springframework.data.solr.core.query.result.DelegatingCursorUnitTests" time="0.0"/>
+  <testcase name="nextShouldThrowExceptionWhenNoMoreElementsAvailable" classname="org.springframework.data.solr.core.query.result.DelegatingCursorUnitTests" time="0.0"/>
+  <testcase name="shouldNotModifyInitialQueryWhenRequestingResults" classname="org.springframework.data.solr.core.query.result.DelegatingCursorUnitTests" time="0.0"/>
+  <testcase name="shouldFinishLoopingWhenCursorMarkEqualsPreviousOne" classname="org.springframework.data.solr.core.query.result.DelegatingCursorUnitTests" time="0.0"/>
+  <testcase name="shouldDetermineEndOfResultsCorrectly" classname="org.springframework.data.solr.core.query.result.DelegatingCursorUnitTests" time="0.0"/>
+  <testcase name="shouldNotHaveNextWhenNoElementsAvailable" classname="org.springframework.data.solr.core.query.result.DelegatingCursorUnitTests" time="0.0"/>
+  <testcase name="shouldFetchNextSetOfElementsWhenNotFinishedAndCurrentResultsEndReached" classname="org.springframework.data.solr.core.query.result.DelegatingCursorUnitTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.SolrTemplateTests" tests="32" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:14" hostname="192.168.1.7" time="0.258">
+  <properties/>
+  <testcase name="testPingThrowsExceptionCorrectlyWhenMimeTypeDoesNotMatch" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.111"/>
+  <testcase name="testNullServerFactory" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.003"/>
+  <testcase name="testGetByIds" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.01"/>
+  <testcase name="testSaveBeanCommitWithin" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.009"/>
+  <testcase name="schemaShouldBeUpdatedPriorToSavingEntity" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.012"/>
+  <testcase name="testSaveBean" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.007"/>
+  <testcase name="testSoftCommit" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.008"/>
+  <testcase name="queryForHighlightPageShouldUseRequestMethodCorrectly" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.006"/>
+  <testcase name="testCount" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.005"/>
+  <testcase name="testPing" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.003"/>
+  <testcase name="testSaveBeansCommitWithin" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.008"/>
+  <testcase name="testPartialUpdate" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.004"/>
+  <testcase name="usesTemplateDefaultRequestMethodForQuery" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.008"/>
+  <testcase name="testGetById" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.003"/>
+  <testcase name="usesTemplateMethodRequetsParameterForQuery" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.005"/>
+  <testcase name="testDifferentQueryParser" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.003"/>
+  <testcase name="testRollback" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.002"/>
+  <testcase name="testPingThrowsException" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.002"/>
+  <testcase name="testQueryThrowsUntranslateableException" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.002"/>
+  <testcase name="testQueryThrowsParseException" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.002"/>
+  <testcase name="testSaveBeans" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.004"/>
+  <testcase name="testSaveDocuments" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.003"/>
+  <testcase name="testCountWhenPagingSet" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.006"/>
+  <testcase name="testDeleteById" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.002"/>
+  <testcase name="testCommit" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.003"/>
+  <testcase name="testDeleteByIdWithCollection" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.002"/>
+  <testcase name="testSaveDocumentCommitWithin" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.002"/>
+  <testcase name="testCountNullQuery" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.001"/>
+  <testcase name="testSaveShouldNotSaveDeprecatedScoreField" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.006"/>
+  <testcase name="testSaveDocumentsCommitWithin" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.002"/>
+  <testcase name="testSaveDocument" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.002"/>
+  <testcase name="testSaveShouldNotSaveScoreField" classname="org.springframework.data.solr.core.SolrTemplateTests" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

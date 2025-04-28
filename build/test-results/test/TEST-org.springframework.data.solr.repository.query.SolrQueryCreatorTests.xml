@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" tests="38" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:32" hostname="192.168.1.7" time="0.061">
+  <properties/>
+  <testcase name="testCombinationsOfOrAndShouldBeCreatedCorrectly" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateFindByNotCriteria" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.0"/>
+  <testcase name="testCreateQueryWithEndingWithClause" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateQueryWithEndingWithClauseUsingCollection" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateQueryWithNotInClause" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.0"/>
+  <testcase name="testCreateQueryWithNearUsingBox" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.003"/>
+  <testcase name="testCreateQueryWithBetweenClause" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.009"/>
+  <testcase name="testCreateQueryWithLikeNotClause" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateQueryWithAfterClause" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateQueryWithTrueClause" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateFindByNullCriteria" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateQueryWithWithin" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateQueryWithLikeClause" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateQueryWithInClause" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateQueryWithStartsWithClause" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.0"/>
+  <testcase name="testCreateQueryWithBeforeClause" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.002"/>
+  <testcase name="testCreateQueryWithGreaterThanClause" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.003"/>
+  <testcase name="testCreateQueryWithWithinWhereUnitIsMiles" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.003"/>
+  <testcase name="testCreateFindByOrQuery" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.002"/>
+  <testcase name="testCreateQueryWithLessThanEqualsClause" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateQueryWithLikeClauseUsingCollection" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateQueryWithContainingClauseUsingCollection" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.002"/>
+  <testcase name="testCreateQueryWithNearWhereUnitIsMiles" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateFindBySingleCriteria" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.002"/>
+  <testcase name="testCreateQueryWithStartsWithClauseUsingCollection" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateQueryWithFalseClause" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.002"/>
+  <testcase name="testCreateQueryWithNear" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateQueryWithGreaterThanEqualsClause" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateQueryWithLikeNotClauseUsingCollection" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateQueryWithArrayType" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateQueryWithRegexClause" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.002"/>
+  <testcase name="testCreateQueryWithContainingClause" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.002"/>
+  <testcase name="testCreateQueryWithInvalidArrayType" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateQueryWithInvalidCollectionType" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateFindByNotNullCriteria" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateQueryWithSortDesc" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateQueryWithLessThanClause" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.001"/>
+  <testcase name="testCreateFindByAndQuery" classname="org.springframework.data.solr.repository.query.SolrQueryCreatorTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

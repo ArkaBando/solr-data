@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:14" hostname="192.168.1.7" time="0.006">
+  <properties/>
+  <testcase name="testConvertPointXYZToStringWithNegativeValue" classname="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" time="0.001"/>
+  <testcase name="shouldConvertZCoordWithZeroScaleCorrectly" classname="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" time="0.0"/>
+  <testcase name="testConvertPointToStringWithNull" classname="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" time="0.0"/>
+  <testcase name="shouldConvertYCoordWithZeroScaleCorrectly" classname="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" time="0.0"/>
+  <testcase name="shouldConvertXCoordWithZeroScaleCorrectly" classname="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" time="0.001"/>
+  <testcase name="testConvertPointXYToString" classname="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" time="0.0"/>
+  <testcase name="testConvertPointXYZToString" classname="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" time="0.0"/>
+  <testcase name="shouldConvertXYZCoordWithZeroScaleCorrectly" classname="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" time="0.0"/>
+  <testcase name="testConvertPointXYToStringWithNegativeValue" classname="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" time="0.0"/>
+  <testcase name="testConvertPointXYZToStringWithNegativeValue" classname="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" time="0.0"/>
+  <testcase name="shouldConvertZCoordWithZeroScaleCorrectly" classname="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" time="0.0"/>
+  <testcase name="testConvertPointToStringWithNull" classname="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" time="0.0"/>
+  <testcase name="shouldConvertYCoordWithZeroScaleCorrectly" classname="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" time="0.0"/>
+  <testcase name="shouldConvertXCoordWithZeroScaleCorrectly" classname="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" time="0.001"/>
+  <testcase name="testConvertPointXYToString" classname="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" time="0.0"/>
+  <testcase name="testConvertPointXYZToString" classname="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" time="0.0"/>
+  <testcase name="shouldConvertXYZCoordWithZeroScaleCorrectly" classname="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" time="0.0"/>
+  <testcase name="testConvertPointXYToStringWithNegativeValue" classname="org.springframework.data.solr.core.convert.GeoConverterTests$PointConverterTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.convert.MappingSolrConvertDocumentObjectBinderCompatibilityTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:16" hostname="192.168.1.7" time="0.039">
+  <properties/>
+  <testcase name="testSingleVal4Array[org.springframework.data.solr.core.convert.SolrJConverter@71c229b6]" classname="org.springframework.data.solr.core.convert.MappingSolrConvertDocumentObjectBinderCompatibilityTests" time="0.002"/>
+  <testcase name="testChild[org.springframework.data.solr.core.convert.SolrJConverter@71c229b6]" classname="org.springframework.data.solr.core.convert.MappingSolrConvertDocumentObjectBinderCompatibilityTests" time="0.002"/>
+  <testcase name="testToAndFromSolrDocument[org.springframework.data.solr.core.convert.SolrJConverter@71c229b6]" classname="org.springframework.data.solr.core.convert.MappingSolrConvertDocumentObjectBinderCompatibilityTests" time="0.0"/>
+  <testcase name="testDynamicFieldBinding[org.springframework.data.solr.core.convert.SolrJConverter@71c229b6]" classname="org.springframework.data.solr.core.convert.MappingSolrConvertDocumentObjectBinderCompatibilityTests" time="0.018"/>
+  <testcase name="testSimple[org.springframework.data.solr.core.convert.SolrJConverter@71c229b6]" classname="org.springframework.data.solr.core.convert.MappingSolrConvertDocumentObjectBinderCompatibilityTests" time="0.002"/>
+  <testcase name="testSingleVal4Array[org.springframework.data.solr.core.convert.MappingSolrConverter@16fc5b23]" classname="org.springframework.data.solr.core.convert.MappingSolrConvertDocumentObjectBinderCompatibilityTests" time="0.003"/>
+  <testcase name="testChild[org.springframework.data.solr.core.convert.MappingSolrConverter@16fc5b23]" classname="org.springframework.data.solr.core.convert.MappingSolrConvertDocumentObjectBinderCompatibilityTests" time="0.006"/>
+  <testcase name="testToAndFromSolrDocument[org.springframework.data.solr.core.convert.MappingSolrConverter@16fc5b23]" classname="org.springframework.data.solr.core.convert.MappingSolrConvertDocumentObjectBinderCompatibilityTests" time="0.002"/>
+  <testcase name="testDynamicFieldBinding[org.springframework.data.solr.core.convert.MappingSolrConverter@16fc5b23]" classname="org.springframework.data.solr.core.convert.MappingSolrConvertDocumentObjectBinderCompatibilityTests" time="0.002"/>
+  <testcase name="testSimple[org.springframework.data.solr.core.convert.MappingSolrConverter@16fc5b23]" classname="org.springframework.data.solr.core.convert.MappingSolrConvertDocumentObjectBinderCompatibilityTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

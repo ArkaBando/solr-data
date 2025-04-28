@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.convert.ITestMappingSolrConverter" tests="11" skipped="2" failures="0" errors="0" timestamp="2025-03-26T03:08:16" hostname="192.168.1.7" time="0.469">
+  <properties/>
+  <testcase name="testProcessesDeprecatedScoreCorrectly" classname="org.springframework.data.solr.core.convert.ITestMappingSolrConverter" time="0.062"/>
+  <testcase name="testDynamicMap" classname="org.springframework.data.solr.core.convert.ITestMappingSolrConverter" time="0.051"/>
+  <testcase name="convertsPointCorrectly" classname="org.springframework.data.solr.core.convert.ITestMappingSolrConverter" time="0.051"/>
+  <testcase name="testDynamicMapList" classname="org.springframework.data.solr.core.convert.ITestMappingSolrConverter" time="0.05"/>
+  <testcase name="testProcessesScoreCorrectly" classname="org.springframework.data.solr.core.convert.ITestMappingSolrConverter" time="0.05"/>
+  <testcase name="testProcessesInheritanceCorrectly" classname="org.springframework.data.solr.core.convert.ITestMappingSolrConverter" time="0.045"/>
+  <testcase name="testProcessesListCorrectly" classname="org.springframework.data.solr.core.convert.ITestMappingSolrConverter" time="0.045"/>
+  <testcase name="convertsJodaDateTimeCorrectly" classname="org.springframework.data.solr.core.convert.ITestMappingSolrConverter" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testProcessesEnumCorrectly" classname="org.springframework.data.solr.core.convert.ITestMappingSolrConverter" time="0.049"/>
+  <testcase name="writeAndReadDocumentWithNestedChildObjectsCorrectly" classname="org.springframework.data.solr.core.convert.ITestMappingSolrConverter" time="0.066"/>
+  <testcase name="convertsJodaLcoalDateTimeCorrectly" classname="org.springframework.data.solr.core.convert.ITestMappingSolrConverter" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

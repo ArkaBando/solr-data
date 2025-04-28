@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.query.SimpleQueryTests" tests="33" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:18" hostname="192.168.1.7" time="0.002">
+  <properties/>
+  <testcase name="testAddMultipleSort" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testCreateQueryWithSortedPageRequest" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testCloneQueryWithSort" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testCloneWithTimeAllowed" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testAddSort" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testCloneWithDefaultOperator" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testCloneWithRequestHandler" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.001"/>
+  <testcase name="testAddFacetOptionsWithoutFacetFields" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testSetPageRequestWithSort" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testTimeAllowed" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testAddProjectionNullField" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testAddProjectionNullFieldName" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testAddNullCriteria" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testSetPageRequestWithNullValue" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testAddGroupByNullFieldName" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testAddProjection" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testAddFacetOptions" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testCloneQueryWithProjection" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testAddCriteria" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testCloneNullQuery" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testCloneQueryWithFilterQuery" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testCloneQueryWithGroupBy" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testSetPageRequest" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testCloneQueryWithCriteria" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testAddNullToExistingSort" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testAddNullSort" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testAddGroupByNullField" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testCloneWithDefType" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.001"/>
+  <testcase name="testCloneQuery" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testAddGroupBy" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="shouldOverridePagableArgsByUsingExplicitSetters" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testAddCriteriaWithEmptyFieldname" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <testcase name="testAddFacetOptionsWithNullValue" classname="org.springframework.data.solr.core.query.SimpleQueryTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

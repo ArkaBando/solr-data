@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.query.HighlightOptionsTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:17" hostname="192.168.1.7" time="0.001">
+  <properties/>
+  <testcase name="testAddParamters" classname="org.springframework.data.solr.core.query.HighlightOptionsTests" time="0.0"/>
+  <testcase name="testWithMultipleFields" classname="org.springframework.data.solr.core.query.HighlightOptionsTests" time="0.0"/>
+  <testcase name="testWithMultipleFieldsAndFieldWithHighlightParameters" classname="org.springframework.data.solr.core.query.HighlightOptionsTests" time="0.0"/>
+  <testcase name="testGetHighlighParameterValue" classname="org.springframework.data.solr.core.query.HighlightOptionsTests" time="0.0"/>
+  <testcase name="testEmptyOption" classname="org.springframework.data.solr.core.query.HighlightOptionsTests" time="0.0"/>
+  <testcase name="testGetHighlighParameterValueForParameterThatDoesNotExist" classname="org.springframework.data.solr.core.query.HighlightOptionsTests" time="0.0"/>
+  <testcase name="testHasQuery" classname="org.springframework.data.solr.core.query.HighlightOptionsTests" time="0.001"/>
+  <testcase name="testAddParamterWithNullName" classname="org.springframework.data.solr.core.query.HighlightOptionsTests" time="0.0"/>
+  <testcase name="testGetHighlighParameterValueForNullParameterName" classname="org.springframework.data.solr.core.query.HighlightOptionsTests" time="0.0"/>
+  <testcase name="testAddNullFieldname" classname="org.springframework.data.solr.core.query.HighlightOptionsTests" time="0.0"/>
+  <testcase name="testAddNullField" classname="org.springframework.data.solr.core.query.HighlightOptionsTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

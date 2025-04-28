@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.query.CriteriaTests" tests="55" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:17" hostname="192.168.1.7" time="0.002">
+  <properties/>
+  <testcase name="testIsNotNull" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testInWithNull" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testCriteriaForNullFieldName" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testEndsWith" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testFuzzyWithDistance" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testOrShouldProduceCrotch" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testInWithNoValues" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testBetweenExcludingLowerBound" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testLessThan" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testGreaterThanEqual" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testWithinWithNullLocation" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testBoost" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testCirteriasJoindWithOrShouldBeSiblingsOfCreatedCrotch" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testFuzzy" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testIsNot" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testNear" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.001"/>
+  <testcase name="testSloppyWithNegativeDistance" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testLessThanEqualNull" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testIn" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testIs" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testAndShouldProduceCrotch" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testBetween" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testCirteriasJoindWihtAndShouldBeSiblingsOfCreatedCrotch" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testEndsWithCollection" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testNearWithNullLocation" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testCriteriaForNullString" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testBetweenExcludingUpperBound" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testCriteriaChain" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testContains" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testBetweenWithoutLowerBound" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testGreaterThan" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testContainWithCollection" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testMultipleIs" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testFuzzyWithNegativeDistance" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testCriteriaForNullField" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testNearWithNegativeDistance" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testGreaterThanEqualNull" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testFuzzyWithTooHighDistance" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testIsWithCollection" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testIsNull" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testContainsWithBlank" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.001"/>
+  <testcase name="testStartsWithBlank" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testSloppyWithSingleWordPhrase" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testLessThanEqual" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testCrotchShouldReturnFieldNameOfMostRecentSibling" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testBetweenWithoutUpperBound" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testSloppy" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testBetweenWithoutLowerAndUpperBound" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testExpression" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testEndsWithBlank" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testWithin" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testIsWithNull" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testStartsWith" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testInWithNestedCollection" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <testcase name="testStartsWithCollection" classname="org.springframework.data.solr.core.query.CriteriaTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

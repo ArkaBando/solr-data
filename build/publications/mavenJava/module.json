@@ -1,0 +1,230 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.net-a-porter",
+    "module": "spring-data-solr",
+    "version": "5.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "6.0.10"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "6.0.10"
+          }
+        },
+        {
+          "group": "org.springframework.data",
+          "module": "spring-data-commons",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.1"
+          }
+        },
+        {
+          "group": "joda-time",
+          "module": "joda-time",
+          "version": {
+            "requires": "2.12.5"
+          }
+        },
+        {
+          "group": "org.apache.solr",
+          "module": "solr-solrj",
+          "version": {
+            "requires": "8.7.0"
+          }
+        },
+        {
+          "group": "org.apache.solr",
+          "module": "solr-core",
+          "version": {
+            "requires": "8.7.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.15.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-data-solr-5.1.6.jar",
+          "url": "spring-data-solr-5.1.6.jar",
+          "size": 438772,
+          "sha512": "880003c762c9f5128026aae0bad7890c93dfe79f50595bed6749180aeea1bae849a9b2e1ccdcad98242ffc93d9b61829b3dc91ec1eef4b8081c246eb7974fd90",
+          "sha256": "7f52ac868e3f3f382b0382686f0fdf55cb669e6e56ac8b55d64e01c50eec58d1",
+          "sha1": "598be5c894a81cb50f57b207db43095b65ae4ec8",
+          "md5": "36f641719c3010dd22aa64902518e148"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "6.0.10"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "6.0.10"
+          }
+        },
+        {
+          "group": "org.springframework.data",
+          "module": "spring-data-commons",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.1"
+          }
+        },
+        {
+          "group": "joda-time",
+          "module": "joda-time",
+          "version": {
+            "requires": "2.12.5"
+          }
+        },
+        {
+          "group": "org.apache.solr",
+          "module": "solr-solrj",
+          "version": {
+            "requires": "8.7.0"
+          }
+        },
+        {
+          "group": "org.apache.solr",
+          "module": "solr-core",
+          "version": {
+            "requires": "8.7.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.15.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-data-solr-5.1.6.jar",
+          "url": "spring-data-solr-5.1.6.jar",
+          "size": 438772,
+          "sha512": "880003c762c9f5128026aae0bad7890c93dfe79f50595bed6749180aeea1bae849a9b2e1ccdcad98242ffc93d9b61829b3dc91ec1eef4b8081c246eb7974fd90",
+          "sha256": "7f52ac868e3f3f382b0382686f0fdf55cb669e6e56ac8b55d64e01c50eec58d1",
+          "sha1": "598be5c894a81cb50f57b207db43095b65ae4ec8",
+          "md5": "36f641719c3010dd22aa64902518e148"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-data-solr-5.1.6-sources.jar",
+          "url": "spring-data-solr-5.1.6-sources.jar",
+          "size": 293098,
+          "sha512": "7ae891ec1bd548a03109dc447a0e73d26089ec34c9ecbc762f51ad310180c13d510f660c0749c9f361b381d0058adbb7e84a96dce90c6c9db2da1cae851ba2d1",
+          "sha256": "c2e882a34a8981984cace1648b96e5b797eb99395eb7792a3990af3245cecff0",
+          "sha1": "0227e0b0227a9dd3e1b770f0a69bfed5df8224c8",
+          "md5": "72a8fef1868a9d0761ee54d58f0ee18c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-data-solr-5.1.6-javadoc.jar",
+          "url": "spring-data-solr-5.1.6-javadoc.jar",
+          "size": 1030054,
+          "sha512": "0d156c63c571854c8148296031a98ad227438809f3d9cea2f1c275ca71d7aec111d3eb2eed2200923eabcf62824d9038762b8f9f102b68c0352f1bbfba353241",
+          "sha256": "1ee40afd282af319fdf239a0ca449d032ba872103fdf6c95c52322ccadcb8894",
+          "sha1": "596cb2e533867a8d4a7c2e03834b221a4cbf1e87",
+          "md5": "263d63de397232a3fd6822f8e310860d"
+        }
+      ]
+    }
+  ]
+}

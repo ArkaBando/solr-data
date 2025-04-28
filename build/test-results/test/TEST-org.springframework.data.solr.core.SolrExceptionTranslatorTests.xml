@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.SolrExceptionTranslatorTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:14" hostname="192.168.1.7" time="0.003">
+  <properties/>
+  <testcase name="testWithNonSolrServerException" classname="org.springframework.data.solr.core.SolrExceptionTranslatorTests" time="0.0"/>
+  <testcase name="testNotFoundError" classname="org.springframework.data.solr.core.SolrExceptionTranslatorTests" time="0.001"/>
+  <testcase name="testForbiddenError" classname="org.springframework.data.solr.core.SolrExceptionTranslatorTests" time="0.0"/>
+  <testcase name="testUnknownError" classname="org.springframework.data.solr.core.SolrExceptionTranslatorTests" time="0.0"/>
+  <testcase name="testUnauthorizedError" classname="org.springframework.data.solr.core.SolrExceptionTranslatorTests" time="0.0"/>
+  <testcase name="shouldConvertConnectExceptionCorrectly" classname="org.springframework.data.solr.core.SolrExceptionTranslatorTests" time="0.001"/>
+  <testcase name="testServiceUnavailableError" classname="org.springframework.data.solr.core.SolrExceptionTranslatorTests" time="0.0"/>
+  <testcase name="testWithParseException" classname="org.springframework.data.solr.core.SolrExceptionTranslatorTests" time="0.001"/>
+  <testcase name="testServerErrorError" classname="org.springframework.data.solr.core.SolrExceptionTranslatorTests" time="0.0"/>
+  <testcase name="testBadRequestError" classname="org.springframework.data.solr.core.SolrExceptionTranslatorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

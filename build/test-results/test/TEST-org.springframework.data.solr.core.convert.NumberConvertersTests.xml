@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.convert.NumberConvertersTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:16" hostname="192.168.1.7" time="0.0">
+  <properties/>
+  <testcase name="testConvertPositiveDouble" classname="org.springframework.data.solr.core.convert.NumberConvertersTests" time="0.0"/>
+  <testcase name="testConvertNaNFloat" classname="org.springframework.data.solr.core.convert.NumberConvertersTests" time="0.0"/>
+  <testcase name="testConvertPositiveInteger" classname="org.springframework.data.solr.core.convert.NumberConvertersTests" time="0.0"/>
+  <testcase name="testConvertNegativeInteger" classname="org.springframework.data.solr.core.convert.NumberConvertersTests" time="0.0"/>
+  <testcase name="testConvertPositiveInfiniteFloat" classname="org.springframework.data.solr.core.convert.NumberConvertersTests" time="0.0"/>
+  <testcase name="testConvertPositiveInfiniteDouble" classname="org.springframework.data.solr.core.convert.NumberConvertersTests" time="0.0"/>
+  <testcase name="testConvertNegativeInfiniteFloat" classname="org.springframework.data.solr.core.convert.NumberConvertersTests" time="0.0"/>
+  <testcase name="testConvertNegativeInfiniteDouble" classname="org.springframework.data.solr.core.convert.NumberConvertersTests" time="0.0"/>
+  <testcase name="testConvertNaNDouble" classname="org.springframework.data.solr.core.convert.NumberConvertersTests" time="0.0"/>
+  <testcase name="testConvertPositiveLong" classname="org.springframework.data.solr.core.convert.NumberConvertersTests" time="0.0"/>
+  <testcase name="testConvertPositiveFloat" classname="org.springframework.data.solr.core.convert.NumberConvertersTests" time="0.0"/>
+  <testcase name="testConvertNegativeLong" classname="org.springframework.data.solr.core.convert.NumberConvertersTests" time="0.0"/>
+  <testcase name="testConvertNegativeFloat" classname="org.springframework.data.solr.core.convert.NumberConvertersTests" time="0.0"/>
+  <testcase name="testConvertNegativeDouble" classname="org.springframework.data.solr.core.convert.NumberConvertersTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

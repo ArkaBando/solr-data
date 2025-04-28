@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.query.result.SimpleStatsResultTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:18" hostname="192.168.1.7" time="0.007">
+  <properties/>
+  <testcase name="testMeanDate" classname="org.springframework.data.solr.core.query.result.SimpleStatsResultTests" time="0.0"/>
+  <testcase name="testMeanNumber" classname="org.springframework.data.solr.core.query.result.SimpleStatsResultTests" time="0.0"/>
+  <testcase name="testGetMaxDouble" classname="org.springframework.data.solr.core.query.result.SimpleStatsResultTests" time="0.0"/>
+  <testcase name="testGetMinDouble" classname="org.springframework.data.solr.core.query.result.SimpleStatsResultTests" time="0.001"/>
+  <testcase name="testGetMaxDate" classname="org.springframework.data.solr.core.query.result.SimpleStatsResultTests" time="0.005"/>
+  <testcase name="testMeanDateWhenNoDate" classname="org.springframework.data.solr.core.query.result.SimpleStatsResultTests" time="0.0"/>
+  <testcase name="testGetMinDate" classname="org.springframework.data.solr.core.query.result.SimpleStatsResultTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.query.StatsOptionsTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:18" hostname="192.168.1.7" time="0.001">
+  <properties/>
+  <testcase name="shouldThrowExceptionWhenAddingNullFieldName" classname="org.springframework.data.solr.core.query.StatsOptionsTests" time="0.0"/>
+  <testcase name="shouldThrowExceptionWhenAddingNullFacetField" classname="org.springframework.data.solr.core.query.StatsOptionsTests" time="0.0"/>
+  <testcase name="testSelectiveFacetAndSelectiveCountDistinct" classname="org.springframework.data.solr.core.query.StatsOptionsTests" time="0.0"/>
+  <testcase name="shouldThrowExceptionWhenAddingNullField" classname="org.springframework.data.solr.core.query.StatsOptionsTests" time="0.0"/>
+  <testcase name="testFluency" classname="org.springframework.data.solr.core.query.StatsOptionsTests" time="0.001"/>
+  <testcase name="shouldThrowExceptionWhenAddingNullFacetFieldName" classname="org.springframework.data.solr.core.query.StatsOptionsTests" time="0.0"/>
+  <testcase name="testMultipleSelectiveFacet" classname="org.springframework.data.solr.core.query.StatsOptionsTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

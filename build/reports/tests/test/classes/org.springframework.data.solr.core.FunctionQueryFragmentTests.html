@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.data.solr.core.FunctionQueryFragmentTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.data.solr.core.FunctionQueryFragmentTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.data.solr.core.html">org.springframework.data.solr.core</a> &gt; FunctionQueryFragmentTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">73</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.010s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[0: CurrencyFunction [arguments=[field_1]]]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[10: DefaultValueFunction [arguments=[Foo, value]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[11: DefaultValueFunction [arguments=[Foo, 1]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[12: DefaultValueFunction [arguments=[Foo, Bar]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[13: DistanceFunction [arguments=[2, Point [x=1.000000, y=2.000000], Point [x=3.000000, y=4.000000]]]]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[14: DistanceFunction [arguments=[2, Point [x=1.000000, y=2.000000], Point [x=4.000000, y=5.000000]]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[15: DistanceFunction [arguments=[Infinite, Point [x=1.000000, y=2.000000], Point [x=3.000000, y=4.000000]]]]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[16: DistanceFunction [arguments=[Infinite, Point [x=1.000000, y=2.000000], Point [x=4.000000, y=5.000000]]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[17: DistanceFunction [arguments=[1, Point [x=1.000000, y=2.000000], Point [x=3.000000, y=4.000000]]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[18: DistanceFunction [arguments=[1, Point [x=1.000000, y=2.000000], Point [x=4.000000, y=5.000000]]]]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[19: DistanceFunction [arguments=[0, Point [x=1.000000, y=2.000000], Point [x=3.000000, y=4.000000]]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[1: CurrencyFunction [arguments=[field_1, EUR]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[20: DistanceFunction [arguments=[0, Point [x=1.000000, y=2.000000], Point [x=4.000000, y=5.000000]]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[21: DivideFunction [arguments=[Foo, Bar]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[22: DivideFunction [arguments=[Foo, 3]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[23: DivideFunction [arguments=[Foo, field_1]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[24: DivideFunction [arguments=[Foo, field_1]]]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[25: DivideFunction [arguments=[3, Bar]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[26: DivideFunction [arguments=[3, 3]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[27: DivideFunction [arguments=[3, field_1]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[28: DivideFunction [arguments=[3, field_1]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[29: DivideFunction [arguments=[field_1, Bar]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[2: CurrencyFunction [arguments=[field_1]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[30: DivideFunction [arguments=[field_1, 3]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[31: DivideFunction [arguments=[field_1, field_2]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[32: DivideFunction [arguments=[field_1, field_2]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[33: DivideFunction [arguments=[field_1, Bar]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[34: DivideFunction [arguments=[field_1, 3]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[35: DivideFunction [arguments=[field_1, field_2]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[36: DivideFunction [arguments=[field_1, field_2]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[37: ExistsFunction [arguments=[field_3]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[38: ExistsFunction [arguments=[Foo]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[39: ExistsFunction [arguments=[field_1]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[3: CurrencyFunction [arguments=[field_1, EUR]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[40: GeoDistanceFunction [arguments=[field_1, Point [x=12.000000, y=13.000000]]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[41: GeoDistanceFunction [arguments=[field_1, Point [x=12.000000, y=13.000000]]]]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[42: GeoDistanceFunction [arguments=[field_1, Point [x=12.000000, y=13.000000]]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[43: GeoHashFunction [arguments=[Point [x=1.000000, y=2.000000]]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[44: GeoHashFunction [arguments=[Point [x=1.000000, y=2.000000]]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[45: IfFunction [arguments=[Foo, field_1, 3]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[46: IfFunction [arguments=[Foo, field_1, 3]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[47: IfFunction [arguments=[field_1, Foo, Bar]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[48: IfFunction [arguments=[field_1, Foo, Bar]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[49: MaxFunction [arguments=[Foo, Bar]]]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[4: DefaultValueFunction [arguments=[field_1, value]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[50: MaxFunction [arguments=[Foo, 3]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[51: MaxFunction [arguments=[Foo, field_1]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[52: MaxFunction [arguments=[3, Bar]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[53: MaxFunction [arguments=[3, 4]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[54: MaxFunction [arguments=[3, field_1]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[55: MaxFunction [arguments=[field_1, Bar]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[56: MaxFunction [arguments=[field_1, 3]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[57: MaxFunction [arguments=[field_1, field_2]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[58: NotFunction [arguments=[field_1]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[59: NotFunction [arguments=[Foo]]]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[5: DefaultValueFunction [arguments=[field_1, 1]]]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[60: NotFunction [arguments=[field_1]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[61: ProductFunction [arguments=[field_1, field_2]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[62: ProductFunction [arguments=[field_1, field_2]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[63: ProductFunction [arguments=[3, field_2]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[64: ProductFunction [arguments=[field_1, field_2]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[65: ProductFunction [arguments=[Foo, field_1]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[66: ProductFunction [arguments=[Foo, field_1, Bar]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[67: ProductFunction [arguments=[Foo, field_1, Bar, 3]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[68: ProductFunction [arguments=[Foo, field_1, Bar, 3, field_2]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[69: QueryFunction [arguments=[org.springframework.data.solr.core.query.SimpleQuery@648ee871]]]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[6: DefaultValueFunction [arguments=[field_1, Foo]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[70: QueryFunction [arguments=[org.springframework.data.solr.core.query.SimpleQuery@375b5b7f]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[71: TermFrequencyFunction [arguments=[field_1, term]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[72: TermFrequencyFunction [arguments=[field_1, term]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[7: DefaultValueFunction [arguments=[field_1, value]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[8: DefaultValueFunction [arguments=[field_1, 1]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">queryParserConstructsExpectedFragment[9: DefaultValueFunction [arguments=[field_1, Foo]]]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.1.1</a> at 26-Mar-2025, 8:38:34 am</p>
+</div>
+</div>
+</body>
+</html>

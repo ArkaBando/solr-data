@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.convert.GeoConverterTests$DistanceConverterTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:14" hostname="192.168.1.7" time="0.004">
+  <properties/>
+  <testcase name="testConvertDistanceWithNeutralUnitToString" classname="org.springframework.data.solr.core.convert.GeoConverterTests$DistanceConverterTests" time="0.0"/>
+  <testcase name="testConvertMilesDistanceToString" classname="org.springframework.data.solr.core.convert.GeoConverterTests$DistanceConverterTests" time="0.0"/>
+  <testcase name="testConvertDistanceToString" classname="org.springframework.data.solr.core.convert.GeoConverterTests$DistanceConverterTests" time="0.0"/>
+  <testcase name="testConvertDistanceToStringWithNull" classname="org.springframework.data.solr.core.convert.GeoConverterTests$DistanceConverterTests" time="0.0"/>
+  <testcase name="testConvertDistanceWithNeutralUnitToString" classname="org.springframework.data.solr.core.convert.GeoConverterTests$DistanceConverterTests" time="0.0"/>
+  <testcase name="testConvertMilesDistanceToString" classname="org.springframework.data.solr.core.convert.GeoConverterTests$DistanceConverterTests" time="0.0"/>
+  <testcase name="testConvertDistanceToString" classname="org.springframework.data.solr.core.convert.GeoConverterTests$DistanceConverterTests" time="0.001"/>
+  <testcase name="testConvertDistanceToStringWithNull" classname="org.springframework.data.solr.core.convert.GeoConverterTests$DistanceConverterTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

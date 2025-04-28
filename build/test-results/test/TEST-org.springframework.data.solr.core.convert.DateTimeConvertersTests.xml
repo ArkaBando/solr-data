@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.convert.DateTimeConvertersTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:14" hostname="192.168.1.7" time="0.002">
+  <properties/>
+  <testcase name="testJodaDateTimeConverter" classname="org.springframework.data.solr.core.convert.DateTimeConvertersTests" time="0.0"/>
+  <testcase name="testDateToJodaLocalDateTimeConverter" classname="org.springframework.data.solr.core.convert.DateTimeConvertersTests" time="0.0"/>
+  <testcase name="testJavaDateConverter" classname="org.springframework.data.solr.core.convert.DateTimeConvertersTests" time="0.0"/>
+  <testcase name="testJodaLocalDateTimeConverterWithNullValue" classname="org.springframework.data.solr.core.convert.DateTimeConvertersTests" time="0.0"/>
+  <testcase name="testStringToJodaDateTime" classname="org.springframework.data.solr.core.convert.DateTimeConvertersTests" time="0.002"/>
+  <testcase name="testJavaDateConverterWithNullValue" classname="org.springframework.data.solr.core.convert.DateTimeConvertersTests" time="0.0"/>
+  <testcase name="testDateToJodaDateTimeConverterWithNull" classname="org.springframework.data.solr.core.convert.DateTimeConvertersTests" time="0.0"/>
+  <testcase name="testJodaLocalDateTimeConverter" classname="org.springframework.data.solr.core.convert.DateTimeConvertersTests" time="0.0"/>
+  <testcase name="testStringToJodaDateTimeWithNullValue" classname="org.springframework.data.solr.core.convert.DateTimeConvertersTests" time="0.0"/>
+  <testcase name="testJodaDateTimeConverterWithNullValue" classname="org.springframework.data.solr.core.convert.DateTimeConvertersTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

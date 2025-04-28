@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.schema.SolrSchmemaResolverUnitTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:24" hostname="192.168.1.7" time="0.009">
+  <properties/>
+  <testcase name="requiredPropertyShouldBeMappedCorrectly" classname="org.springframework.data.solr.core.schema.SolrSchmemaResolverUnitTests" time="0.003"/>
+  <testcase name="searchablePropertyShouldBeMappedCorrectly" classname="org.springframework.data.solr.core.schema.SolrSchmemaResolverUnitTests" time="0.0"/>
+  <testcase name="idPropertyShouldBeResolvedCorrectly" classname="org.springframework.data.solr.core.schema.SolrSchmemaResolverUnitTests" time="0.001"/>
+  <testcase name="storedPropertyShouldBeMappedCorrectly" classname="org.springframework.data.solr.core.schema.SolrSchmemaResolverUnitTests" time="0.0"/>
+  <testcase name="copyToPropertyShouldBeMappedCorrectly" classname="org.springframework.data.solr.core.schema.SolrSchmemaResolverUnitTests" time="0.001"/>
+  <testcase name="defaultValueShouldBeMappedCorrectly" classname="org.springframework.data.solr.core.schema.SolrSchmemaResolverUnitTests" time="0.0"/>
+  <testcase name="scorePropertyShouldNotBeMapped" classname="org.springframework.data.solr.core.schema.SolrSchmemaResolverUnitTests" time="0.001"/>
+  <testcase name="transientPropertyShouldNotBeMapped" classname="org.springframework.data.solr.core.schema.SolrSchmemaResolverUnitTests" time="0.0"/>
+  <testcase name="collectionPropertyShouldBeMappedAsMultivalued" classname="org.springframework.data.solr.core.schema.SolrSchmemaResolverUnitTests" time="0.001"/>
+  <testcase name="namedPropertyShouldBeMappedCorrectly" classname="org.springframework.data.solr.core.schema.SolrSchmemaResolverUnitTests" time="0.0"/>
+  <testcase name="untypedPropertyShouldBeMappedCorrectly" classname="org.springframework.data.solr.core.schema.SolrSchmemaResolverUnitTests" time="0.001"/>
+  <testcase name="readonlyPropertyShouldNotBeMapped" classname="org.springframework.data.solr.core.schema.SolrSchmemaResolverUnitTests" time="0.0"/>
+  <testcase name="typedPropertyShouldBeMappedCorrectly" classname="org.springframework.data.solr.core.schema.SolrSchmemaResolverUnitTests" time="0.001"/>
+  <testcase name="collectionPropertyTypeShouldBeResolvedCorrectly" classname="org.springframework.data.solr.core.schema.SolrSchmemaResolverUnitTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

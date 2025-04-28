@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.mapping.SimpleSolrPersistentEntityTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:16" hostname="192.168.1.7" time="0.196">
+  <properties/>
+  <testcase name="exposesTargetTypeAsVariable" classname="org.springframework.data.solr.core.mapping.SimpleSolrPersistentEntityTests" time="0.182"/>
+  <testcase name="testPersistentEntityWithEmptySolrDocumentAnnotation" classname="org.springframework.data.solr.core.mapping.SimpleSolrPersistentEntityTests" time="0.001"/>
+  <testcase name="evaluatesSpELExpressionInCollectionName" classname="org.springframework.data.solr.core.mapping.SimpleSolrPersistentEntityTests" time="0.001"/>
+  <testcase name="testPersistentEntityWithoutSolrDocumentAnnotation" classname="org.springframework.data.solr.core.mapping.SimpleSolrPersistentEntityTests" time="0.001"/>
+  <testcase name="testPersistentEntityWithSolrDocumentAnnotation" classname="org.springframework.data.solr.core.mapping.SimpleSolrPersistentEntityTests" time="0.001"/>
+  <testcase name="testPersistentEntityWithScoreProperty" classname="org.springframework.data.solr.core.mapping.SimpleSolrPersistentEntityTests" time="0.002"/>
+  <testcase name="verifyShouldThrowExceptionWhenDynamicDefinedForNonWildcardPropety" classname="org.springframework.data.solr.core.mapping.SimpleSolrPersistentEntityTests" time="0.001"/>
+  <testcase name="testPersistentEntityShouldReadSolrCoreNameFromParentClass" classname="org.springframework.data.solr.core.mapping.SimpleSolrPersistentEntityTests" time="0.001"/>
+  <testcase name="verifyShouldThrowExceptionWhenMoreThanOneScorePropertyDefined" classname="org.springframework.data.solr.core.mapping.SimpleSolrPersistentEntityTests" time="0.001"/>
+  <testcase name="verifyShouldThrowExceptionWhenDynamicDefinedForNonMapPropety" classname="org.springframework.data.solr.core.mapping.SimpleSolrPersistentEntityTests" time="0.001"/>
+  <testcase name="deprecatedScoreAnnotationShouldBeConsidered" classname="org.springframework.data.solr.core.mapping.SimpleSolrPersistentEntityTests" time="0.001"/>
+  <testcase name="evaluatesSpELExpressionWithBeanReferenceInCollectionName" classname="org.springframework.data.solr.core.mapping.SimpleSolrPersistentEntityTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

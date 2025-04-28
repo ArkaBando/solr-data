@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.repository.support.SolrRepositoryFactoryTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:33" hostname="192.168.1.7" time="0.076">
+  <properties/>
+  <testcase name="testGetEntityInformation" classname="org.springframework.data.solr.repository.support.SolrRepositoryFactoryTests" time="0.072"/>
+  <testcase name="testGetRepositoryOfUnmanageableType" classname="org.springframework.data.solr.repository.support.SolrRepositoryFactoryTests" time="0.002"/>
+  <testcase name="testGetRepository" classname="org.springframework.data.solr.repository.support.SolrRepositoryFactoryTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

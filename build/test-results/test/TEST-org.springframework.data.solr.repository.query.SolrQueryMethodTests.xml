@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.repository.query.SolrQueryMethodTests" tests="47" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:32" hostname="192.168.1.7" time="0.011">
+  <properties/>
+  <testcase name="testStatsForFieldAndFacets" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.001"/>
+  <testcase name="testDeleteAttrbiteOfAnnotatedQueryIsDiscoveredCorrectlty" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testQueryWithHighlightPostfix" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testStatsForFieldAndFacetsAndSelectiveFacets" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testWithMultipleFieldPivot" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.001"/>
+  <testcase name="testQueryWithRequestHandler" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testQueryWithNegativeHighlightSnipplets" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testQueryWithHighlightMultipleFields" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testWithFacetPrefix" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="shouldApplySpellcheckWithOptionsCorrectly" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testWithMultipleQueryFacets" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testWithMultipleFieldPivotUsingOnlyPivotAnnotation" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.001"/>
+  <testcase name="testWithoutQueryDefaultOperator" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testHasStatsDefinition" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testWithMultipleFieldPivotsLimitAndMinCount" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testStatsForSelectiveFacets" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testQueryWithNegativeHighlightFragsize" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.001"/>
+  <testcase name="testWithSigleFilter" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testStatsForField" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testWithSingleQueryFacet" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.003"/>
+  <testcase name="testWithMultipleFieldFacetsLimitAndMinCount" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="shouldApplySpellcheckCorrectly" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testWithMultipleFieldsProjection" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testDeleteAttrbiteOfAnnotatedQueryIsFalseByDefault" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testQueryWithHighlightFragsize" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.001"/>
+  <testcase name="testQueryWithHighlightQuery" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testWithMultipleFilters" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testQueryWithNegativeTimeAllowed" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testWithQueryDefaultOperator" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testWithSingleFieldFacet" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testWithSingleFieldPivot" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testWithMultipleFieldFacets" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testQueryWithHighlightFormatter" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testAnnotatedQueryUsageWithoutExplicitAttribute" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testWithSingleFieldProjection" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testAnnotatedNamedQueryNameUsage" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testQueryWithEmptyHighlight" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testQueryWithPositiveTimeAllowed" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testQueryWithHighlightSingleField" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testQueryWithDefType" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testWithoutFacetPrefix" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testQueryWithHighlightPrefix" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testWithMultipleFieldPivotUsingPivotAnnotation" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testQueryWithHighlightSnipplets" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testAnnotatedQueryUsage" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testWithoutAnnotation" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.0"/>
+  <testcase name="testWithMultipleQueryFacetsLimitAndMinCount" classname="org.springframework.data.solr.repository.query.SolrQueryMethodTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

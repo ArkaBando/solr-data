@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.repository.support.MappingSolrEntityInformationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:33" hostname="192.168.1.7" time="0.006">
+  <properties/>
+  <testcase name="testGetIdAttribute" classname="org.springframework.data.solr.repository.support.MappingSolrEntityInformationTests" time="0.004"/>
+  <testcase name="testSolrCoreRetrievalWhenNotExplicitlySet" classname="org.springframework.data.solr.repository.support.MappingSolrEntityInformationTests" time="0.0"/>
+  <testcase name="testIdTypeWithLongIdFieldType" classname="org.springframework.data.solr.repository.support.MappingSolrEntityInformationTests" time="0.001"/>
+  <testcase name="testGetIdAttributeForAlternateFieldName" classname="org.springframework.data.solr.repository.support.MappingSolrEntityInformationTests" time="0.001"/>
+  <testcase name="testIdType" classname="org.springframework.data.solr.repository.support.MappingSolrEntityInformationTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

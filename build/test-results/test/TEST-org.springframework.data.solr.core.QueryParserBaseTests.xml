@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.QueryParserBaseTests" tests="23" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:12" hostname="192.168.1.7" time="0.795">
+  <properties/>
+  <testcase name="testBaseCritieraEntryProcessor" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.0"/>
+  <testcase name="testCreateFunctionFragmentConvertsPointProperty" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.0"/>
+  <testcase name="testFuzzyProcessorCanProcess" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.001"/>
+  <testcase name="testNearProcessorCanProcess" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.0"/>
+  <testcase name="testFunctionProcessorCanProcessFunctions" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.0"/>
+  <testcase name="testFunctionFragmemtIgnoresEmptyArguments" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.0"/>
+  <testcase name="testCreateFunctionFragementsWihtNetsedFunction" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.0"/>
+  <testcase name="testFunctionFragmemtAppendsMultipleArgumentsCorrectly" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.0"/>
+  <testcase name="testFunctionFragmemtIgnoresNullArguments" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.0"/>
+  <testcase name="testExpressionProcessorCanProcess" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.0"/>
+  <testcase name="testNamedObjectsGroupQuery" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.784"/>
+  <testcase name="testCreateFunctionFragmemtThrowsExceptionOnNullInArguments" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.001"/>
+  <testcase name="testCreateFunctionFieldFragmentPrependsAliasCorrectly" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.0"/>
+  <testcase name="testFunctionFragmemtAppendsSingleArgumentCorrectly" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.001"/>
+  <testcase name="testSloppyProcessorCanProcess" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.001"/>
+  <testcase name="testCreateFunctionFragmentConvertsDistanceProperty" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.002"/>
+  <testcase name="testCreateFunctionFieldFragmentIgnoresBlankAlias" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.0"/>
+  <testcase name="testWithinProcessorCanProcess" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.001"/>
+  <testcase name="testWildcardProcessorCanProcess" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.0"/>
+  <testcase name="testBetweenProcessorCanProcess" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.001"/>
+  <testcase name="testCreateFunctionFieldFragmentIgnoresNullAlias" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.0"/>
+  <testcase name="testCreateFunctionFragmentUsesToStringForUnknowObject" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.001"/>
+  <testcase name="testDefaultProcessorCanProcess" classname="org.springframework.data.solr.core.QueryParserBaseTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

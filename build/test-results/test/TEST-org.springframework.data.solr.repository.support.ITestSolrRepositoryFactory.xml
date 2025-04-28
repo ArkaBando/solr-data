@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.repository.support.ITestSolrRepositoryFactory" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:33" hostname="192.168.1.7" time="0.47">
+  <properties/>
+  <testcase name="testSingleResultQuery" classname="org.springframework.data.solr.repository.support.ITestSolrRepositoryFactory" time="0.044"/>
+  <testcase name="testScoredAnnotatedQuery" classname="org.springframework.data.solr.repository.support.ITestSolrRepositoryFactory" time="0.041"/>
+  <testcase name="testGetRepository" classname="org.springframework.data.solr.repository.support.ITestSolrRepositoryFactory" time="0.003"/>
+  <testcase name="testCRUDOperations" classname="org.springframework.data.solr.repository.support.ITestSolrRepositoryFactory" time="0.264"/>
+  <testcase name="testAnnotatedQuery" classname="org.springframework.data.solr.repository.support.ITestSolrRepositoryFactory" time="0.039"/>
+  <testcase name="testPartTreeQuery" classname="org.springframework.data.solr.repository.support.ITestSolrRepositoryFactory" time="0.039"/>
+  <testcase name="testCollectionResultQuery" classname="org.springframework.data.solr.repository.support.ITestSolrRepositoryFactory" time="0.04"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

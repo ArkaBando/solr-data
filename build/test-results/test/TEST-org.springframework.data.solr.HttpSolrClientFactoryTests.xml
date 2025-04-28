@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.HttpSolrClientFactoryTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:04" hostname="192.168.1.7" time="0.508">
+  <properties/>
+  <testcase name="testInitFactoryWithAuthentication" classname="org.springframework.data.solr.HttpSolrClientFactoryTests" time="0.504"/>
+  <testcase name="testInitFactoryWithNullServer" classname="org.springframework.data.solr.HttpSolrClientFactoryTests" time="0.001"/>
+  <testcase name="testInitFactory" classname="org.springframework.data.solr.HttpSolrClientFactoryTests" time="0.001"/>
+  <testcase name="testInitFactoryWithoutAuthenticationSchema" classname="org.springframework.data.solr.HttpSolrClientFactoryTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

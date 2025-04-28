@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.ITestSolrTemplate" tests="53" skipped="2" failures="0" errors="0" timestamp="2025-03-26T03:08:09" hostname="192.168.1.7" time="3.091">
+  <properties/>
+  <testcase name="deleteShouldUseMappedFieldName" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.235"/>
+  <testcase name="testFacetQueryWithFacetQueries" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.099"/>
+  <testcase name="testPartialUpdateSetEmptyCollectionToMultivaluedFieldRemovesValuesFromDocument" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.081"/>
+  <testcase name="testPartialUpdateIncSingleValue" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.082"/>
+  <testcase name="testBeanLifecycle" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.056"/>
+  <testcase name="testTermsQuery" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.086"/>
+  <testcase name="testQueryWithJoinOperation" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.094"/>
+  <testcase name="testQueryWithFieldsStatsAndFaceting" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.062"/>
+  <testcase name="testGetByIds" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.028"/>
+  <testcase name="testFacetQueryWithDateFacetRangeField" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.078"/>
+  <testcase name="testQueryWithSort" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.061"/>
+  <testcase name="testRangeFacetRequest" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.053"/>
+  <testcase name="testGroupQueryWithFacets" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="shouldUseBaseUrlInCollectionCallbackWhenExecutingCommands" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.005"/>
+  <testcase name="testQueryWithRequestHandler" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.066"/>
+  <testcase name="testFindByNameWithSpellcheckSeggestion" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.125"/>
+  <testcase name="shouldAllowReadingMultivaluedFieldWithNoEntriesIntoSingleValuedProperty" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.043"/>
+  <testcase name="testPartialUpdateWithVersion" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.074"/>
+  <testcase name="testPing" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.004"/>
+  <testcase name="testFacetQueryWithPivotFields" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.054"/>
+  <testcase name="shouldThrowExceptionReadingMultivaluedFieldWithManyEntriesIntoSingleValuedProperty" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.057"/>
+  <testcase name="testQueryWithFieldsStatsAndSelectiveFaceting" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.048"/>
+  <testcase name="testDelegatingCursorLoadsAllElements" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.097"/>
+  <testcase name="testFunctionQueryInFieldProjection" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.079"/>
+  <testcase name="testPartialUpdateWithMultipleDocuments" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.087"/>
+  <testcase name="testFacetQueryWithFieldFacetPrefix" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.047"/>
+  <testcase name="testGetById" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.024"/>
+  <testcase name="testFuctionQueryReturnsProperResult" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.05"/>
+  <testcase name="testDistinctStatsRequest" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.047"/>
+  <testcase name="shouldAllowReadingMultivaluedFieldWithOnlyOneEntryIntoSingleValuedProperty" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.042"/>
+  <testcase name="testFuctionQueryInFilterReturnsProperResult" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.048"/>
+  <testcase name="testFunctionQueryInFieldProjectionWhenUsingFilterQuery" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.047"/>
+  <testcase name="testFacetAndHighlightQueryWithFacetFields" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.043"/>
+  <testcase name="testPartialUpdateSetWithNullInTheMiddle" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.071"/>
+  <testcase name="countShouldUseMappedFieldName" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.039"/>
+  <testcase name="testFunctionQueryInFieldProjectionWhenUsingQuery" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.047"/>
+  <testcase name="testQueryWithHighlights" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.053"/>
+  <testcase name="testPartialUpdateAddMultipleValuesToMultivaluedField" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.073"/>
+  <testcase name="testQueryWithDefaultOperator" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testQueryWithMultiSort" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.051"/>
+  <testcase name="testRollback" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.009"/>
+  <testcase name="testGeoFunctionQueryWithSort" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.045"/>
+  <testcase name="testQueryWithJoinFromIndexOperation" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.05"/>
+  <testcase name="testPartialUpdateSetWithNullAtTheEnd" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.07"/>
+  <testcase name="testPartialUpdateWithInvalidVersion" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.04"/>
+  <testcase name="testFacetQueryWithNumericFacetRangeField" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.051"/>
+  <testcase name="testFacetQueryWithFacetFields" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.057"/>
+  <testcase name="testQueryWithDefType" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.043"/>
+  <testcase name="testFacetQueryWithFacetPrefix" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.046"/>
+  <testcase name="testRegularGroupQuery" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.053"/>
+  <testcase name="testPartialUpdateAddSingleValueToMultivalueField" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.063"/>
+  <testcase name="testPartialUpdateSetSingleValueField" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.064"/>
+  <testcase name="testPartialUpdateSetMultipleValuesToMultivaluedField" classname="org.springframework.data.solr.core.ITestSolrTemplate" time="0.059"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

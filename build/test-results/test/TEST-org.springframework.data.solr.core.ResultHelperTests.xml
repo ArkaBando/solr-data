@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.ResultHelperTests" tests="39" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:13" hostname="192.168.1.7" time="0.656">
+  <properties/>
+  <testcase name="testConvertFacetRangeQueryResponseForQueryWithoutFacetOptions" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.114"/>
+  <testcase name="testConvertFacetQueryResponseForQueryResultWithFacetQueries" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.007"/>
+  <testcase name="testConvertFacetQueryResponseToFacetPivotMap" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.002"/>
+  <testcase name="testConvertGroupQueryResponseToGroupResultList" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.503"/>
+  <testcase name="testConvertFacetRangeQueryResponseToFacetPageMap" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.002"/>
+  <testcase name="testConvertNullFieldStatsInfoToStatsResultMap" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.001"/>
+  <testcase name="testConvertFacetRangeQueryResponseToFacetPageMapForNullQueryResponse" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.001"/>
+  <testcase name="testConvertTermsQueryResponseReturnsTermsMapCorrectlyWhenOneFieldReturned" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.001"/>
+  <testcase name="testConvertFacetQueryResponseForNegativeFacetLimit" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.002"/>
+  <testcase name="testConvertTermsQueryResponseReturnsEmtpyMapWhenTermsResponseIsNull" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.001"/>
+  <testcase name="testConvertFieldStatsInfoMapWithEmptyNamedListToStatsResultMap" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <testcase name="testParseAndAddHighlightQueryResponseWithMultipleEntriesToResultPage" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.001"/>
+  <testcase name="testConvertFacetQueryResponseForNullQuery" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <testcase name="testConvertFacetRangeQueryResponseForNullQuery" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <testcase name="testConvertFacetQueryResponseForQueryResultWithEmptyFacetQueries" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.001"/>
+  <testcase name="testConvertFacetQueryResponseForQueryResultWithEmptyFacetFields" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <testcase name="testConvertEmptyFacetRangeQueryResponseToFacetPageMap" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <testcase name="testParseAndAddHighlightQueryResponseToResultPageWithNullResponse" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <testcase name="testParseAndAddHighlightQueryResponseToResultPageWithNullHighlighting" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.001"/>
+  <testcase name="testConvertFacetQueryResponseForQueryResultWithNullFacetFields" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <testcase name="testConvertEmptyFieldStatsInfoMapToStatsResultMap" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <testcase name="testConvertSingleFieldStatsInfoToStatsResultMap" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <testcase name="testConvertFacetQueryResponseForQueryResultWithNullFacetQueries" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <testcase name="testParseAndAddHighlightQueryResponseToResultPageWithEmptyHighlighting" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <testcase name="testConvertFieldStatsInfoMapWithNullToStatsResultMap" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <testcase name="testconvertFacetQueryResponseToRangeFacetPageMapForNegativeFacetLimit" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <testcase name="testConvertFacetRangeQueryResponseForQueryResultWithEmptyFacetFields" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <testcase name="testConvertFieldStatsInfoToStatsResultMap" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.001"/>
+  <testcase name="testConvertTermsQueryResponseReturnsEmtpyMapWhenTermsMapIsEmpty" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <testcase name="testConvertGroupQueryResponseToGroupResultListWhenNoCountOfGroups" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.003"/>
+  <testcase name="testConvertTermsQueryResponseReturnsEmtpyMapWhenResponseIsNull" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <testcase name="testConvertFacetQueryResponseForQueryResultWithSingeFacetField" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.002"/>
+  <testcase name="testConvertFacetQueryResponseForQueryResultWithSingleFacetFieldWithoutValues" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <testcase name="testParseAndAddHighlightQueryResponseToResultPage" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.001"/>
+  <testcase name="testConvertFacetRangeQueryResponseForQueryResultWithNullFacetFields" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <testcase name="testParseAndAddHighlightQueryResponseForBeanWithAnnotatedId" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.002"/>
+  <testcase name="testConvertTermsQueryResponseReturnsTermsMapCorrectlyWhenMultipleFieldsReturned" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.001"/>
+  <testcase name="testConvertFacetQueryResponseForQueryWithoutFacetOptions" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.001"/>
+  <testcase name="testConvertFacetQueryResponseForNullQueryResponse" classname="org.springframework.data.solr.core.ResultHelperTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.schema.ITestSolrSchemaWriter" tests="4" skipped="1" failures="0" errors="0" timestamp="2025-03-26T03:08:24" hostname="192.168.1.7" time="0.102">
+  <properties/>
+  <testcase name="getSchemaVersionShouldReturnVersionNumberCorrectly" classname="org.springframework.data.solr.core.schema.ITestSolrSchemaWriter" time="0.0"/>
+  <testcase name="loadSchema" classname="org.springframework.data.solr.core.schema.ITestSolrSchemaWriter" time="0.001"/>
+  <testcase name="writeSchemaDefintion" classname="org.springframework.data.solr.core.schema.ITestSolrSchemaWriter" time="0.101"/>
+  <testcase name="createSchema" classname="org.springframework.data.solr.core.schema.ITestSolrSchemaWriter" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

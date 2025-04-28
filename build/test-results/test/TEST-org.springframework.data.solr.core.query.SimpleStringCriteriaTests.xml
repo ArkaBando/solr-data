@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.data.solr.core.query.SimpleStringCriteriaTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-26T03:08:18" hostname="192.168.1.7" time="0.0">
+  <properties/>
+  <testcase name="testStringCriteriaWithMoreFragmentsCreatesCrotch" classname="org.springframework.data.solr.core.query.SimpleStringCriteriaTests" time="0.0"/>
+  <testcase name="testStringCriteria" classname="org.springframework.data.solr.core.query.SimpleStringCriteriaTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
